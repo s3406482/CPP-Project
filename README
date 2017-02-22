@@ -1,0 +1,56 @@
+/****************************************************************************
+* CPT 323 - Object Oriented Programming in C++
+* Study Period 3 2014 Assignment #1 - "MelbourneConnect - RMIT" Ticketing System
+* Full Name        : David Bumford
+* Student Number   : S3406482
+* Course Code      : CPT323
+* Program Code     : OLA00
+* Start up code provided by Robert T.McQuillan
+****************************************************************************/
+
+-----------------------------------------------------------------------------
+If selected, do you grant permission for your assignment to be released as an
+anonymous student sample solution?
+-----------------------------------------------------------------------------
+
+Yes
+
+-----------------------------------------------------------------------------
+Dev C++ was the environment I have used to create this assignment
+I have not put the different files into different subfolders as the 
+overloading section of task C is not fully complete and the isTravelPass
+section I have put with Task B it will be tested when Part B print purchases
+is selected.
+
+
+
+Known bugs:
+-----------
+
+
+
+Incomplete functionality:
+-------------------------
+Task C - C3 and C4 overloading << and >> not complete. Also has not been tested for
+memory leaks.
+
+
+Assumptions:
+------------
+Assumed that for the isTravelPass method the bool was used to tell the
+difference between the derived classes so I have used it to differentiate
+between the passes for Zone 1 and the passes for Zone 1 and 2. The test for this
+is in the print passes option this option will print the passes then print the
+amount of passes for Zone 1 and the amount for Zones 1 and 2.
+
+
+SECTION C 
+Answer to Array of TravelPass Objects vs. Array of TravelPass 
+Pointers:
+-----------------------------------------------------------------------
+As TravelPass is abstract it cannot be instantiated, so an array of pointers
+is needed. And if the TravelPass was not an abstract class we would get object
+slicing.
+
+Any other notes for the marker:
+-------------------------------
